@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu-h ul {
+    list-style: none;
+    padding: 0;
+    background-color: #111;
+}
+
+#menu-h ul li {
+    display: inline-block;
+}
+
+#menu-h ul li a {
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li:hover {
+    background-color: rgb(65, 63, 63);
+}
+
+#menu-h ul li:last-child a {
+    background-color: rgb(65, 63, 63);
+}
